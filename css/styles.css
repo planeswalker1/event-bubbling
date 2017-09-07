@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container div {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.outer {
+  background-color: rgb(254,175,160);
+}
+
+.outer.selected {
+  background-color: lightblue;
+}
+
+.inner {
+  background-color: rgb(255,210,73);
+}
+
+.inner.selected {
+  background-color: yellow;
+}
